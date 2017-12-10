@@ -1,0 +1,5 @@
+stex (1.2.1+git20171204.g5e4f0ca-1) unstable; urgency=low
+
+  * Initial release (closes: #883430).
+
+ -- Göran Weinholt <goran@weinholt.se>  Sun, 10 Dec 2017 21:31:06 +0100

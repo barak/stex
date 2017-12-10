@@ -1,0 +1,13 @@
+Document: stex
+Title: Introduction to stex
+Author: R. Kent Dybvig and Oscar Waddell
+Abstract: This manual describes stex, a tool for typesetting Scheme
+ code with LaTeX.
+Section: Programming/Scheme
+
+Format: PDF
+Files: /usr/share/doc/stex/stex.pdf.gz
+
+Format: html
+Index: /usr/share/doc/stex/stex.html
+Files: /usr/share/doc/stex/stex.html

@@ -1,0 +1,20 @@
+Source: stex
+Section: tex
+Priority: optional
+Maintainer: Göran Weinholt <goran@weinholt.se>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: https://github.com/dybvig/stex
+
+Package: stex
+Architecture: all
+Depends: ${misc:Depends},
+ texlive-latex-base, texlive-binaries, texlive-generic-recommended,
+ ghostscript,
+ netpbm,
+ chezscheme
+Suggests: fig2dev, texlive-font-utils
+Description: typeset Scheme code with LaTeX
+ Tools for typesetting Scheme code with LaTeX. The scheme-prep tool
+ converts stex commands to LaTeX, and html-prep converts some LaTeX to
+ html. A makefile is provided that builds stex documents.

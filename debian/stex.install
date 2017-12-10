@@ -1,0 +1,5 @@
+src/*              usr/share/stex/src
+Mf-stex            usr/share/stex/
+gifs/*             usr/share/stex/gifs
+inputs/*           usr/share/stex/inputs
+math/*             usr/share/stex/math

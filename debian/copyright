@@ -1,0 +1,46 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: stex
+Source: https://github.com/dybvig/stex
+
+Files:     *
+Copyright: 1998-2016 R. Kent Dybvig and Oscar Waddell
+License:   Expat
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the "Software"),
+ to deal in the Software without restriction, including without limitation
+ the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to whom the
+ Software is furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ DEALINGS IN THE SOFTWARE.
+
+Files:     inputs/assignment.bst
+Copyright: 1984, 1985, 1988, 2010 Howard Trickey and Oren Patashnik.
+License:   bibtex-plain-bst
+ The unmodified original of this file is available in the texlive-base
+ package at /usr/share/texlive/texmf-dist/bibtex/bst/base/plain.bst.
+ .
+   Unlimited copying and redistribution of this file are permitted as long as
+   it is unmodified.  Modifications (and redistribution of modified versions)
+   are also permitted, but only if the resulting file is renamed to something
+   besides btxbst.doc, plain.bst, unsrt.bst, alpha.bst, and abbrv.bst.
+   This restriction helps ensure that all standard styles are identical.
+   The file btxbst.doc has the documentation for this style.
+
+Files: debian/*
+Copyright: 2017 Göran Weinholt <goran@weinholt.se>
+License: GPL-2+
+
+License: GPL-2+
+ Licensed under the GNU GPL version 2 or, at you option, any later version.
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in /usr/share/common-licenses/GPL-2

@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+export DH_VERBOSE = 1
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	sed -e 's,^STEXLIB=.*,STEXLIB=/usr/share/stex,' Makefile.template > debian/Makefile.template
+
+override_dh_auto_install:
+	:
+
+override_dh_clean:
+	dh_clean
+	rm -f debian/Makefile.template

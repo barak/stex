@@ -1,0 +1,10 @@
+stex for Debian
+---------------
+
+Upstream's Makefile compiles a few binaries. However, these depend on
+the exact Chez Scheme version that compiled them. But stex is a
+build-dependency of chezscheme, which makes building stex and
+chezscheme complicated. Therefore this package has the uncompiled
+programs instead, which is a case that upstream supports.
+
+ -- Göran Weinholt <goran@weinholt.se>, Sun, 10 Dec 2017 15:54:49 +0100
