@@ -5,6 +5,8 @@ Maintainer: Göran Weinholt <goran@weinholt.se>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 Homepage: https://github.com/dybvig/stex
+Vcs-Git: https://anonscm.debian.org/git/collab-maint/stex.git
+Vcs-Browser: https://anonscm.debian.org/gitweb/?p=collab-maint/stex.git
 
 Package: stex
 Architecture: all
